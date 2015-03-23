@@ -1,0 +1,13 @@
+--TEST--
+"render_form" filter
+--TEMPLATE--
+{{ render_form(form1) }}
+{{ render_form(form2, 'bootstrap3') }}
+--DATA--
+return [
+    'form1' => new \Fuel\Fieldset\Form,
+    'form2' => new \Fuel\Fieldset\Form,
+]
+--EXPECT--
+RENDERED_BASIC_FORM
+RENDERED_BOOTSTRAP3_FORM
