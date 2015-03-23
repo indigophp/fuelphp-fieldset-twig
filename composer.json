@@ -13,10 +13,10 @@
 	"require": {
 		"php": ">=5.4",
 		"fuelphp/fieldset": "dev-master",
-		"twig/twig": "~1.0"
+		"twig/twig": "~1.12"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "~4.4"
+		"phpunit/phpunit": "~4.5"
 	},
 	"autoload": {
 		"psr-4": {
